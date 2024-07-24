@@ -1,0 +1,393 @@
+/* work sans font */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header section */
+/* navbar starts here */
+.header {
+
+    /* background: linear-gradient(to bottom, #000000, #383838); */
+    /* background: linear-gradient(to top, #000000, #383838,#151515); */
+    /* background: linear-gradient(to top, #000000, #383838,#0e0e0e); */
+    background: linear-gradient(to top, #000000, #383838,#080808);
+    width: auto;
+}
+
+.nav-bar {
+
+    padding: 40px 60px 0 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-name h3 {
+    color: #e35637;
+    font-style: italic;
+    font-size: 1.75rem;
+}
+
+.header-menu {
+    border: 1px solid rgba(243, 236, 236, 0.2);
+    border-radius: 20px;
+    width: 40%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    padding-right: 10px;
+}
+
+.header-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.90rem;
+}
+
+.home-menu-design {
+    background-color: #e35637;
+    border-radius: 20px;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.ham-menu {
+    display: none;
+}
+
+/* hero section start */
+.hero-section {
+    display: flex;
+    padding: 40px 60px 0 60px;
+
+}
+
+.hero-text {
+
+    width: 50%;
+    align-content: center;
+}
+
+.hero-text h1 {
+
+    position: relative;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text .shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 5.1rem;
+    font-weight: 200;
+    position: absolute;
+    left: 5px;
+    top: 35px;
+
+}
+
+.hero-text .stay {
+    margin-left: 125px;
+}
+
+.hero-text p {
+    font-size: small;
+    opacity: 0.6;
+}
+
+.club-btn {
+    background-color: #e35637;
+    border-radius: 20px;
+    padding: 10px;
+    width: 180px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.app-btn {
+    background: none;
+    color: white;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 180px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.hero-image {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-image p {
+    font-size: small;
+    opacity: 0.6;
+}
+
+.work-vid {
+
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    background: rgba(67, 66, 66, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vid-tutorial {
+
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: rgba(67, 66, 66, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.vid-tutorial .circle {
+    background-color: #e35637;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+
+}
+/* change habit section */
+.change-habit{
+    background-color: #000000;
+    padding-top: 50px;
+    
+}
+.habit-text{
+    text-align: center;
+}
+.pic-habit{
+    padding: 40px 60px 0 60px;
+    /* border: 2px solid red; */
+    display: flex;
+    gap: 10px;
+}
+.pic-1,.pic-2,.pic-3,.pic-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pics-1{
+    background-image: url("../images/image\ 3.png");
+    background-size: cover;
+    text-align: center;
+    border: 2px solid #383838;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 35px; */
+    border-radius: 50%;
+}
+.pics-2{
+    background-image: url("../images/image\ 2.png");
+    background-size: cover;
+    text-align: center;
+    border: 2px solid #383838;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 35px; */
+    border-radius: 50%;
+}
+.pics-3{
+    background-image: url("../images/image\ 4.png");
+    background-size: cover;
+    text-align: center;
+    border: 2px solid #383838;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 35px; */
+    border-radius: 50%;
+}
+.pics-4{
+    background-image: url("../images/image\ 5.png");
+    background-size: cover;
+    text-align: center;
+    border: 2px solid #383838;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    /* margin-left: 35px; */
+    border-radius: 50%;
+}
+.pic-text{
+    margin-top: 20px;
+    text-align: center;
+}
+.change-habit p{
+    font-size: small;
+    opacity: 0.6;
+}
+/* extra run section */
+
+/* responsive for mobile */
+@media screen and (max-width:576px) {
+
+    /* header */
+    /* nav-bar */
+    .header {
+        width: auto;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .nav-bar {
+        padding: 0;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .ham-menu {
+        display: block;
+    }
+
+    /* hero */
+    .hero-section {
+        padding: 0;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .hero-text {
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-text .shape {
+        top: 10px;
+        font-size: 70px;
+    }
+    .hero-text .stay {
+        margin-left: 113px;
+    }
+    .hero-text>p {
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .hero-text .btn {
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5px;
+
+    }
+
+    .app-btn {
+        width: 50%;
+        font-size: 0.9rem;
+        height: 60px;
+    }
+
+    .club-btn {
+        width: 50%;
+        font-size: 0.9rem;
+        height: 60px;
+    }
+
+    .hero-image {
+        width: auto;
+        margin-top: 10px;
+
+    }
+
+    .hero-image img {
+        width: 300px;
+        height: 600px;
+    }
+
+    .work-vid {
+        top: 40px;
+        right: 0;
+        width: 100px;
+        height: 50px;
+        align-content: center;
+
+    }
+
+    .work-vid h1 {
+        font-size: 1.2rem;
+    }
+
+    .work-vid p {
+        font-size: 0.6rem;
+    }
+
+    .vid-tutorial {
+
+        top: 260px;
+        left: 10px;
+        width: 100px;
+        height: 50px;
+        align-content: center;
+    }
+
+    .vid-tutorial h1 {
+        font-size: 1.2rem;
+    }
+
+    .vid-tutorial p {
+        font-size: 0.6rem;
+    }
+
+    .vid-tutorial .circle {
+        width: 25px;
+        height: 25px;
+    }
+    /* habit */
+    .change-habit{
+        width: auto;
+    }
+    .pic-habit{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .habit-text p{
+        padding: 10px;
+    }
+}
