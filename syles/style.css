@@ -17,11 +17,7 @@
 /* header section */
 /* navbar starts here */
 .header {
-
-    /* background: linear-gradient(to bottom, #000000, #383838); */
-    /* background: linear-gradient(to top, #000000, #383838,#151515); */
-    /* background: linear-gradient(to top, #000000, #383838,#0e0e0e); */
-    background: linear-gradient(to top, #000000, #383838,#080808);
+    background: linear-gradient(to top, #000000, #383838, #080808);
     width: auto;
 }
 
@@ -183,28 +179,35 @@
     width: 30px;
 
 }
+
 /* change habit section */
-.change-habit{
+.change-habit {
     background-color: #000000;
     padding-top: 50px;
-    
+
 }
-.habit-text{
+
+.habit-text {
     text-align: center;
 }
-.pic-habit{
+
+.pic-habit {
     padding: 40px 60px 0 60px;
-    /* border: 2px solid red; */
     display: flex;
     gap: 10px;
 }
-.pic-1,.pic-2,.pic-3,.pic-4{
+
+.pic-1,
+.pic-2,
+.pic-3,
+.pic-4 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.pics-1{
+
+.pics-1 {
     background-image: url("../images/image\ 3.png");
     background-size: cover;
     text-align: center;
@@ -212,10 +215,10 @@
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    /* margin-left: 35px; */
     border-radius: 50%;
 }
-.pics-2{
+
+.pics-2 {
     background-image: url("../images/image\ 2.png");
     background-size: cover;
     text-align: center;
@@ -223,10 +226,10 @@
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    /* margin-left: 35px; */
     border-radius: 50%;
 }
-.pics-3{
+
+.pics-3 {
     background-image: url("../images/image\ 4.png");
     background-size: cover;
     text-align: center;
@@ -234,10 +237,10 @@
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    /* margin-left: 35px; */
     border-radius: 50%;
 }
-.pics-4{
+
+.pics-4 {
     background-image: url("../images/image\ 5.png");
     background-size: cover;
     text-align: center;
@@ -245,47 +248,52 @@
     background-color: aquamarine;
     width: 200px;
     height: 200px;
-    /* margin-left: 35px; */
     border-radius: 50%;
 }
-.pic-text{
+
+.pic-text {
     margin-top: 20px;
     text-align: center;
 }
-.change-habit p{
+
+.change-habit p {
     font-size: small;
     opacity: 0.6;
 }
+
 /* extra run section */
-.extra-run{
+.extra-run {
     background-color: #000000;
     padding: 80px 60px 0 60px;
 }
-.extra-run-content{
+
+.extra-run-content {
     background-color: #222222;
     display: flex;
     border-radius: 15px;
     gap: 300px;
     padding: 20px;
 }
-.extra-run-content-text{
-    /* align-content: center; */
-    /* background-color: aqua; */
+
+.extra-run-content-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 20px;
 }
-.extra-run-content-text h2{
+
+.extra-run-content-text h2 {
     font-size: 3rem;
     font-weight: bolder;
 }
-.extra-run-content-text p{
-        font-size: small;
-        opacity: 0.6;
+
+.extra-run-content-text p {
+    font-size: small;
+    opacity: 0.6;
 }
-.extra-run-content-text button{
-    height:auto;
+
+.extra-run-content-text button {
+    height: auto;
     background-color: #e35637;
     border-radius: 20px;
     padding: 10px;
@@ -297,11 +305,145 @@
     font-family: "Work Sans", sans-serif;
     font-size: 1rem;
 }
-.extra-run-content-pic img{
-   width: 400px;
-   height: 300px;
-   border-radius: 15px;
+
+.extra-run-content-pic img {
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
 }
+
+/* training and exercise */
+.training-exercise {
+    background-color: #000000;
+    padding: 80px 60px 0 60px;
+}
+
+.training {
+    margin-bottom: 50px;
+}
+
+.training h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.training p {
+    font-size: small;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+.exercise {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.ex-pic-1 {
+    grid-column: 1/ span 1;
+    grid-row: 1/span 1;
+    background-image: url("../images/exercise1re.jpg");
+    background-size: cover;
+    background-color: rgba(70, 201, 175, 0.7);
+    background-blend-mode: overlay;
+    align-content: end;
+}
+
+.ex-pic-1 p {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ex-pic-2 {
+    grid-column: 2/span 3;
+    grid-row: 1/span 1;
+    background-image: url("../images/exercise2re.png");
+    background-size: cover;
+    background-color: rgba(102, 24, 22, 0.6);
+    background-blend-mode: overlay;
+
+}
+
+.ex-pic-2 p {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.ex-pic-3 {
+    grid-column: 5/span 1;
+    grid-row: 1/span 1;
+    background-image: url("../images/exercise3res.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(79, 78, 76, 1);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.ex-pic-3 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.7rem;
+}
+
+.ex-pic-4 {
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+    background-image: url("../images/exercise4re.png");
+    background-size: cover;
+    background-color: rgba(25, 24, 22, 0.6);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.ex-pic-4 p {
+    position: absolute;
+    font-size: 0.7rem;
+    top: 10px;
+    right: 10px;
+}
+
+.ex-pic-5 {
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
+    background-image: url("../images/exercise5re.jpg");
+    background-size: cover;
+    background-color: rgba(99, 148, 20, 0.5);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.ex-pic-5 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.7rem;
+}
+
+.ex-pic-6 {
+    grid-column: 4/span 2;
+    grid-row: 2/span 1;
+    background-image: url("../images/exercise6re.jpg");
+    background-size: cover;
+    background-color: rgba(71, 96, 164, 0.7);
+    background-blend-mode: overlay;
+    position: relative;
+}
+
+.ex-pic-6 p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 0.7rem;
+}
+
 /* responsive for mobile */
 @media screen and (max-width:576px) {
 
@@ -345,9 +487,11 @@
         top: 10px;
         font-size: 70px;
     }
+
     .hero-text .stay {
         margin-left: 113px;
     }
+
     .hero-text>p {
         width: 70%;
         font-size: 1rem;
@@ -423,36 +567,112 @@
         width: 25px;
         height: 25px;
     }
+
     /* habit */
-    .change-habit{
+    .change-habit {
         width: auto;
     }
-    .pic-habit{
+
+    .pic-habit {
         flex-direction: column;
         gap: 50px;
     }
-    .habit-text p{
+
+    .habit-text p {
         padding: 10px;
     }
+
     /* extra run section */
-    .extra-run{
+    .extra-run {
         padding: 20px 20px 0 20px;
     }
-    .extra-run-content{
+
+    .extra-run-content {
         flex-direction: column;
         gap: 20px;
     }
-    .extra-run-content-text{
+
+    .extra-run-content-text {
         gap: 10px;
     }
-    .extra-run-content-text h2{
+
+    .extra-run-content-text h2 {
         font-size: 2rem;
     }
-    .extra-run-content-text button{
+
+    .extra-run-content-text button {
         width: 100%;
     }
-    .extra-run-content-pic img{
+
+    .extra-run-content-pic img {
         height: 100%;
         width: 100%;
+    }
+
+    /* training and exercise */
+
+    .training-exercise {
+        padding: 20px 20px 0 20px;
+    }
+
+    .training h2 {
+        font-size: 2rem;
+    }
+
+    .training p br {
+        display: none;
+    }
+
+    .exercise {
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 100px);
+    }
+
+    .ex-pic-6 {
+        display: none;
+    }
+
+    .ex-pic-3 {
+        display: none;
+    }
+
+    .ex-pic-1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .ex-pic-1 p {
+        font-size: 0.4rem;
+    }
+
+    .ex-pic-2 {
+        background-image: url("../images/exercise2resize.png");
+        background-size: cover;
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+
+    .ex-pic-2 p {
+        font-size: 0.4rem;
+    }
+
+    .ex-pic-4 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .ex-pic-4 p {
+        font-size: 0.4rem;
+        margin-top: 63px;
+        margin-right: 25px;
+    }
+
+    .ex-pic-5 {
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+
+    .ex-pic-5 p {
+        font-size: 0.4rem;
     }
 }
