@@ -444,6 +444,120 @@
     font-size: 0.7rem;
 }
 
+/* BMI calculator */
+.bmi-title {
+    background-color: #000000;
+    padding: 80px 60px 30px 200px;
+}
+
+.bmi-title h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.bmi-title p {
+    font-size: small;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1.5px solid #4c4c4c;
+    padding: 10px;
+}
+
+th {
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+td {
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+.chart-calculator {
+    background-color: #222222;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 60px;
+    padding: 80px 60px 40px 60px;
+}
+
+.chart h3 {
+    padding-bottom: 20px;
+}
+
+.calculator {
+    /* border: 2px solid seagreen; */
+}
+
+.calculator-title {
+    /* border: 2px solid blueviolet; */
+    padding-bottom: 10px;
+}
+
+.calculator-title h3 {
+    /* border: 2px solid blueviolet; */
+    padding-bottom: 10px;
+}
+
+.calculator-title p {
+    font-size: small;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+
+.calculator-input-box {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    padding-bottom: 20px;
+}
+
+input,
+select {
+    border-radius: 5px;
+    background-color: #3a3a3a;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+}
+
+.calculator-input-box select:nth-child(5) {
+    grid-column: span 2;
+}
+
+.calculator-btn button {
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    background-color: #e35637;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+}
+
+input::placeholder,
+select {
+    color: #b0b0b0;
+}
+
 /* responsive for mobile */
 @media screen and (max-width:576px) {
 
@@ -675,4 +789,36 @@
     .ex-pic-5 p {
         font-size: 0.4rem;
     }
+
+    /* BMI Calculator */
+    .BMI-calculator br {
+        display: none;
+    }
+
+    .bmi-title {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .bmi-title h2 {
+        font-size: 2rem;
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .chart-calculator {
+        padding: 20px 20px 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .calculator-input-box {
+        width: 100%;
+    }
+
+    .calculator-btn button {
+        width: 60%;
+    }
+
 }
