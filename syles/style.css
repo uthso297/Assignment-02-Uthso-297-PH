@@ -557,7 +557,49 @@ input::placeholder,
 select {
     color: #b0b0b0;
 }
-
+/* meet our team section */
+.meet-team-title{
+    background-color: #000000;
+    padding: 80px 60px 10px 60px;
+    text-align: center;
+}
+.meet-team-title h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.meet-team-title p{
+    font-size: small;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.meet-team-trainers{
+    background-color: #000000;
+    padding: 20px 120px 0 120px;
+}
+.individual-trainer{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    background-color: rgb(25,25,25);
+    border-radius: 15px;
+}
+.individual-trainer img{
+    width: 100%;
+    border-radius: 15px;
+}
+.image-container{
+    position: relative;
+}
+.trainer-name{
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+}
+.trainer-name p{
+    font-size: small;
+    opacity: 0.7;
+}
 /* responsive for mobile */
 @media screen and (max-width:576px) {
 
@@ -607,7 +649,8 @@ select {
     }
 
     .hero-text>p {
-        width: 70%;
+        width: 100%;
+        text-align: justify;
         font-size: 1rem;
     }
 
@@ -681,7 +724,7 @@ select {
         width: 25px;
         height: 25px;
     }
-
+    /* Body */
     /* habit */
     .change-habit {
         width: auto;
@@ -808,7 +851,7 @@ select {
     }
 
     .chart-calculator {
-        padding: 20px 20px 0 20px;
+        padding: 20px 20px 20px 20px;
         display: flex;
         flex-direction: column;
     }
@@ -819,6 +862,59 @@ select {
 
     .calculator-btn button {
         width: 60%;
+    }
+    /* Meet our team */
+    .meet-team-title{
+        background-color: #000000;
+        padding: 20px;
+        text-align: center;
+    }
+    .meet-team-title h2{
+        font-size: 2rem;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+    .meet-team-title p{
+        font-size: small;
+        opacity: 0.6;
+       
+    }
+    .meet-team-trainers{
+        background-color: #000000;
+        padding: 10px 20px 20px 20px;
+    }
+    .individual-trainer{
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        background-color: rgb(25,25,25);
+        border-radius: 15px;
+    }
+    .sp-1{
+        grid-row-start: 3;
+    }
+    .sp-2{
+        grid-row-start: 2;
+    }
+    .individual-trainer img{
+        width: 100%;
+        border-radius: 15px;
+    }
+    .image-container{
+        position: relative;
+    }
+    .special{
+        display: none;
+    }
+    .trainer-name{
+        position: absolute;
+        bottom: 25px;
+        left: 15px;
+    }
+    .trainer-name p{
+        font-size: small;
+        opacity: 0.7;
     }
 
 }
