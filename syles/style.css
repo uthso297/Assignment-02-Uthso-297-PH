@@ -494,18 +494,11 @@ td {
 .chart h3 {
     padding-bottom: 20px;
 }
-
-.calculator {
-    /* border: 2px solid seagreen; */
-}
-
 .calculator-title {
-    /* border: 2px solid blueviolet; */
     padding-bottom: 10px;
 }
 
 .calculator-title h3 {
-    /* border: 2px solid blueviolet; */
     padding-bottom: 10px;
 }
 
@@ -574,7 +567,7 @@ select {
 }
 .meet-team-trainers{
     background-color: #000000;
-    padding: 20px 120px 0 120px;
+    padding: 20px 120px 40px 120px;
 }
 .individual-trainer{
     padding: 20px;
@@ -585,6 +578,7 @@ select {
     border-radius: 15px;
 }
 .individual-trainer img{
+    height: 230px;
     width: 100%;
     border-radius: 15px;
 }
@@ -593,12 +587,58 @@ select {
 }
 .trainer-name{
     position: absolute;
-    bottom: 25px;
+    bottom: 20px;
     left: 15px;
 }
 .trainer-name p{
     font-size: small;
     opacity: 0.7;
+}
+/* Footer section */
+footer{
+    background-color: #222222;
+}
+.footer-body{
+    display: flex;
+    padding: 60px 60px 20px 60px;
+    justify-content:space-between ;
+}
+.fitness{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.fitness h1{
+    color: #e35637;
+    font-style: italic;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.fitness p{
+    font-size: small;
+    opacity: 0.6;
+}
+.get-started h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.get-started p{
+    font-size: 1.2rem;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.straight-line{
+    margin:0 60px 20px 60px;
+    height: 1px;
+    background-color: #3a3a3a;
+}
+.footer-foot{
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 1.05rem;
+    opacity: 0.6;
+    font-weight: 300;
 }
 /* responsive for mobile */
 @media screen and (max-width:576px) {
@@ -916,5 +956,26 @@ select {
         font-size: small;
         opacity: 0.7;
     }
-
+    /* Footer section */
+    footer{
+        padding: 10px 20px 10px 20px;
+    }
+    .footer-body{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .fitness {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .straight-line{
+        margin: 40px 0 20px 0;
+        padding: 0;
+    }
+    .footer-foot{
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
 }
