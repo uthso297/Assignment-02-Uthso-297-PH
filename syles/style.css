@@ -179,6 +179,10 @@
 
 }
 
+.circle i {
+    display: none;
+}
+
 /* change habit section */
 .change-habit {
     background-color: #000000;
@@ -618,7 +622,15 @@ select {
     text-align: center;
     font-size: 3rem;
     margin: 20px;
+    margin-bottom: 5px;
     margin-top: 0;
+}
+
+.schedule-counseling-title p {
+    font-size: small;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .schedule-counseling {
@@ -842,6 +854,16 @@ footer {
     .vid-tutorial .circle {
         width: 25px;
         height: 25px;
+    }
+
+    .circle i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 8px;
+        width: 12px;
+        margin-left: 8px;
+        margin-top: 8px;
     }
 
     /* Body */
