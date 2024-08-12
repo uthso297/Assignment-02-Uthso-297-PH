@@ -72,12 +72,10 @@
 /* hero section start */
 .hero-section {
     display: flex;
-    padding: 40px 60px 0 60px;
-
+    padding: 20px 60px 0 60px;
 }
 
 .hero-text {
-
     width: 50%;
     align-content: center;
 }
@@ -85,22 +83,23 @@
 .hero-text h1 {
 
     position: relative;
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 4.5rem;
     margin-bottom: 20px;
 }
 
 .hero-text .shape {
     font-family: 'Miama', sans-serif;
-    font-size: 5.1rem;
+    font-size: 8rem;
     font-weight: 200;
     position: absolute;
-    left: 5px;
-    top: 35px;
+    left: 10px;
+    top: 45px;
 
 }
 
 .hero-text .stay {
-    margin-left: 125px;
+    margin-left: 200px;
 }
 
 .hero-text p {
@@ -189,6 +188,10 @@
 
 .habit-text {
     text-align: center;
+}
+
+.habit-text h2 {
+    font-size: 3rem;
 }
 
 .pic-habit {
@@ -494,6 +497,7 @@ td {
 .chart h3 {
     padding-bottom: 20px;
 }
+
 .calculator-title {
     padding-bottom: 10px;
 }
@@ -550,88 +554,106 @@ input::placeholder,
 select {
     color: #b0b0b0;
 }
+
 /* meet our team section */
-.meet-team-title{
+.meet-team-title {
     background-color: #000000;
     padding: 80px 60px 10px 60px;
     text-align: center;
 }
-.meet-team-title h2{
+
+.meet-team-title h2 {
     font-size: 3rem;
     font-weight: bolder;
 }
-.meet-team-title p{
+
+.meet-team-title p {
     font-size: small;
     opacity: 0.6;
     margin-bottom: 10px;
 }
-.meet-team-trainers{
+
+.meet-team-trainers {
     background-color: #000000;
     padding: 20px 120px 40px 120px;
 }
-.individual-trainer{
+
+.individual-trainer {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    background-color: rgb(25,25,25);
+    background-color: rgb(25, 25, 25);
     border-radius: 15px;
 }
-.individual-trainer img{
+
+.individual-trainer img {
     height: 230px;
     width: 100%;
     border-radius: 15px;
 }
-.image-container{
+
+.image-container {
     position: relative;
 }
-.trainer-name{
+
+.trainer-name {
     position: absolute;
     bottom: 20px;
     left: 15px;
 }
-.trainer-name p{
+
+.trainer-name p {
     font-size: small;
     opacity: 0.7;
 }
+
 /* Schedule and Counseling Hour Section */
-.schedule-and-counseling{
+.schedule-and-counseling {
     padding: 20px 120px 40px 120px;
     background-color: #000000;
 }
-.schedule-counseling-title h2{
+
+.schedule-counseling-title h2 {
     text-align: center;
     font-size: 3rem;
     margin: 20px;
     margin-top: 0;
 }
-.schedule-counseling{
+
+.schedule-counseling {
     background-color: #222222;
     padding: 20px;
     display: flex;
     justify-content: space-around;
     border-radius: 15px;
 }
-.schedule-counseling h3{
-        text-align: center;
-        margin: 15px;
+
+.schedule-counseling h3 {
+    text-align: center;
+    margin: 15px;
 }
-.schedule td{
+
+.schedule td {
     text-align: center;
 }
-.schedule p{
+
+.schedule p {
     font-size: small;
     opacity: 0.7;
     margin: 15px;
     margin-left: 0;
 }
-.counseling p{
+
+.counseling p {
     font-size: small;
     opacity: 0.7;
     margin: 10px;
     margin-left: 0;
 }
-.schedule button,.counseling button{
+
+.schedule button,
+.counseling button {
     padding: 10px;
     border-radius: 15px;
     background-color: #e35637;
@@ -641,52 +663,62 @@ select {
     font-family: "Work Sans", sans-serif;
     font-size: 1rem;
 }
+
 /* Footer section */
-footer{
+footer {
     background-color: #222222;
 }
-.footer-body{
+
+.footer-body {
     display: flex;
     padding: 60px 60px 20px 60px;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
-.fitness{
+
+.fitness {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
-.fitness h1{
+
+.fitness h1 {
     color: #e35637;
     font-style: italic;
     font-size: 4rem;
     margin-bottom: 10px;
 }
-.fitness p{
+
+.fitness p {
     font-size: small;
     opacity: 0.6;
 }
-.get-started h3{
+
+.get-started h3 {
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
-.get-started p{
+
+.get-started p {
     font-size: 1.2rem;
     opacity: 0.6;
     margin-bottom: 10px;
 }
-.straight-line{
-    margin:0 60px 20px 60px;
+
+.straight-line {
+    margin: 0 60px 20px 60px;
     height: 1px;
     background-color: #3a3a3a;
 }
-.footer-foot{
+
+.footer-foot {
     text-align: center;
     padding-bottom: 40px;
     font-size: 1.05rem;
     opacity: 0.6;
     font-weight: 300;
 }
+
 /* responsive for mobile */
 @media screen and (max-width:576px) {
 
@@ -811,10 +843,15 @@ footer{
         width: 25px;
         height: 25px;
     }
+
     /* Body */
     /* habit */
     .change-habit {
         width: auto;
+    }
+
+    .habit-text h2 {
+        font-size: 2rem;
     }
 
     .pic-habit {
@@ -883,6 +920,7 @@ footer{
     .ex-pic-1 {
         grid-column-start: 1;
         grid-column-end: 4;
+        background-position: 90%;
     }
 
     .ex-pic-1 p {
@@ -892,8 +930,11 @@ footer{
     .ex-pic-2 {
         background-image: url("../images/exercise2resize.png");
         background-size: cover;
+        background-position: 90%;
+        background-repeat: no-repeat;
         grid-column-start: 4;
         grid-column-end: 6;
+
     }
 
     .ex-pic-2 p {
@@ -903,6 +944,7 @@ footer{
     .ex-pic-4 {
         grid-column-start: 1;
         grid-column-end: 3;
+        background-position: 50%;
     }
 
     .ex-pic-4 p {
@@ -950,117 +992,142 @@ footer{
     .calculator-btn button {
         width: 60%;
     }
+
     /* Meet our team */
-    .meet-team-title{
+    .meet-team-title {
         background-color: #000000;
         padding: 20px;
         text-align: center;
     }
-    .meet-team-title h2{
+
+    .meet-team-title h2 {
         font-size: 2rem;
         font-weight: bolder;
         margin-bottom: 10px;
     }
-    .meet-team-title p{
+
+    .meet-team-title p {
         font-size: small;
         opacity: 0.6;
-       
+
     }
-    .meet-team-trainers{
+
+    .meet-team-trainers {
         background-color: #000000;
         padding: 10px 20px 20px 20px;
     }
-    .individual-trainer{
+
+    .individual-trainer {
         padding: 20px;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-gap: 10px;
-        background-color: rgb(25,25,25);
+        background-color: rgb(25, 25, 25);
         border-radius: 15px;
     }
-    .sp-1{
+
+    .sp-1 {
         grid-row-start: 3;
     }
-    .sp-2{
+
+    .sp-2 {
         grid-row-start: 2;
     }
-    .individual-trainer img{
+
+    .individual-trainer img {
         width: 100%;
         border-radius: 15px;
     }
-    .image-container{
+
+    .image-container {
         position: relative;
     }
-    .special{
+
+    .special {
         display: none;
     }
-    .trainer-name{
+
+    .trainer-name {
         position: absolute;
         bottom: 25px;
         left: 15px;
     }
-    .trainer-name p{
+
+    .trainer-name p {
         font-size: small;
         opacity: 0.7;
     }
+
     /* Schedule and Counseling Hour section */
-    .schedule-and-counseling{
+    .schedule-and-counseling {
         margin: 0;
         padding: 0;
         padding-bottom: 20px;
-        
+
     }
-    .schedule-counseling-title h2{
+
+    .schedule-counseling-title h2 {
         font-size: 2rem;
     }
-    .schedule-counseling{
+
+    .schedule-counseling {
         flex-direction: column;
         border-radius: 0;
     }
-    .schedule{
+
+    .schedule {
         margin: 0;
         padding: 0;
         width: auto;
     }
-    .schedule table{
+
+    .schedule table {
         width: 100%;
     }
-    .schedule td,.schedule th{
+
+    .schedule td,
+    .schedule th {
         /* border: none; */
         padding: 0;
         margin: 0;
         font-size: 0.58rem;
-        
+
     }
-    .schedule button{
+
+    .schedule button {
         border: 2px solid red;
-    padding: 10px;
-    border-radius: 15px;
-    background-color: #e35637;
-    color: white;
-    border: none;
-    font-weight: 500;
-    font-family: "Work Sans", sans-serif;
-    font-size: 0.7rem;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: #e35637;
+        color: white;
+        border: none;
+        font-weight: 500;
+        font-family: "Work Sans", sans-serif;
+        font-size: 0.7rem;
     }
+
     /* Footer section */
-    footer{
+    footer {
         padding: 10px 20px 10px 20px;
     }
-    .footer-body{
+
+    .footer-body {
         flex-direction: column;
         padding: 0;
         margin: 0;
     }
+
     .fitness {
         width: 100%;
         padding-bottom: 10px;
     }
-    .straight-line{
+
+    .straight-line {
         margin: 40px 0 20px 0;
         padding: 0;
     }
-    .footer-foot{
+
+    .footer-foot {
         padding: 0;
         margin: 0;
         text-align: left;
