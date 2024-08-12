@@ -594,6 +594,53 @@ select {
     font-size: small;
     opacity: 0.7;
 }
+/* Schedule and Counseling Hour Section */
+.schedule-and-counseling{
+    padding: 20px 120px 40px 120px;
+    background-color: #000000;
+}
+.schedule-counseling-title h2{
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px;
+    margin-top: 0;
+}
+.schedule-counseling{
+    background-color: #222222;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.schedule-counseling h3{
+        text-align: center;
+        margin: 15px;
+}
+.schedule td{
+    text-align: center;
+}
+.schedule p{
+    font-size: small;
+    opacity: 0.7;
+    margin: 15px;
+    margin-left: 0;
+}
+.counseling p{
+    font-size: small;
+    opacity: 0.7;
+    margin: 10px;
+    margin-left: 0;
+}
+.schedule button,.counseling button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e35637;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+}
 /* Footer section */
 footer{
     background-color: #222222;
@@ -955,6 +1002,46 @@ footer{
     .trainer-name p{
         font-size: small;
         opacity: 0.7;
+    }
+    /* Schedule and Counseling Hour section */
+    .schedule-and-counseling{
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        
+    }
+    .schedule-counseling-title h2{
+        font-size: 2rem;
+    }
+    .schedule-counseling{
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .schedule{
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+    .schedule table{
+        width: 100%;
+    }
+    .schedule td,.schedule th{
+        /* border: none; */
+        padding: 0;
+        margin: 0;
+        font-size: 0.58rem;
+        
+    }
+    .schedule button{
+        border: 2px solid red;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e35637;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-family: "Work Sans", sans-serif;
+    font-size: 0.7rem;
     }
     /* Footer section */
     footer{
